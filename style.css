@@ -5,6 +5,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
+    max-width: 480px;
     min-height: 100vh;
     color: #fff;
     overflow: hidden; /* To prevent scrollbar on mobile-like view */
@@ -13,7 +15,7 @@ body {
 .container {
     background-color: #1a1a2e; /* Dark blue/purple */
     border-radius: 40px;
-    width: 375px; /* iPhone 14 Pro width */
+    width: 97%; /* iPhone 14 Pro width */
     min-height: 812px; /* iPhone 14 Pro height */
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     display: flex;
