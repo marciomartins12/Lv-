@@ -14,7 +14,7 @@ body {
     background-color: #1a1a2e; /* Dark blue/purple */
     border-radius: 40px;
     width: 375px; /* iPhone 14 Pro width */
-    height: 812px; /* iPhone 14 Pro height */
+    min-height: 812px; /* iPhone 14 Pro height */
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
     display: flex;
     flex-direction: column;
