@@ -19,11 +19,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const images = [
         'placeholder1.jpeg', // Replace with your actual image URLs
         'placeholder2.jpeg',
-        'placeholder3.jpeg',
+        
         'placeholder4.jpeg',
         'placeholder5.jpeg',
         'placeholder6.jpeg',
-        'placeholder7.jpeg',
+        
         'placeholder8.jpeg',
         'placeholder9.png',
         // Add more image URLs here
