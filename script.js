@@ -39,16 +39,15 @@ document.addEventListener('DOMContentLoaded', () => {
         }, 1000); // Match this with the transition duration in CSS
     }
 
-    // Change image every 5 seconds (adjust as needed)
+    
     setInterval(changeImage, 5000);
 
-    // Initial image load
+  
     carouselImage.src = images[currentImageIndex];
 
 
-    // --- Love Timer ---
-    // Start date: July 13, 2025, at 00:00:00
-    const startDate = new Date('2025-07-13T00:00:00');
+
+    const startDate = new Date('2025-07-19T00:00:00');
     const loveTimerDisplay = document.getElementById('loveTimer');
 
     function updateLoveTimer() {
