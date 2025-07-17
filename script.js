@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         'placeholder6.jpeg',
         'placeholder7.jpeg',
         'placeholder8.jpeg',
-        'placeholder9.jpeg',
+        'placeholder9.png',
         // Add more image URLs here
     ];
     let currentImageIndex = 0;
@@ -40,7 +40,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     
-    setInterval(changeImage, 5000);
+    setInterval(changeImage, 4000);
 
   
     carouselImage.src = images[currentImageIndex];
