@@ -48,7 +48,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // --- Love Timer ---
     // Start date: July 13, 2025, at 00:00:00
-    const startDate = new Date('2025-07-17T00:00:00');
+    const startDate = new Date('2025-07-13T00:00:00');
     const loveTimerDisplay = document.getElementById('loveTimer');
 
     function updateLoveTimer() {
